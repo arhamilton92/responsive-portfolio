@@ -1,4 +1,8 @@
 
+html {
+  overflow: scroll;
+}
+
 body {
     background-image: url("https://files.slack.com/files-pri/T013NAE6PDY-F01451KKCNB/gtpfbg.png");
     background-repeat: repeat;
@@ -19,6 +23,11 @@ h3 {
     background-color: darkcyan;
   }
 
+.text-center {
+  color: darkcyan;
+  background-color:  rgb(248, 245, 245);
+}
+
 .nav-item {
     color: darkcyan;
   }
@@ -31,6 +40,13 @@ h3 {
     margin-top: 25%;
   }
 
+footer {
+background-color: rgb(248, 245, 245);
+}
+ 
+ .flex-fill {
+    flex:1 1 auto;
+ }
 
 /*media-queries*/
 @media (min-width: 200px) {
@@ -39,9 +55,20 @@ h3 {
       }
   }
 
+@media screen and (max-width: 600px) {
+img.responsive { width: 200px;}
+img.responsive { height: auto;}
+}
+
+@media screen and (min-width: 950px) {
+img.responsive { width: 350px;}
+img.responsive { height: auto;}
+}
+
+
 @media (min-width: 550px) {
       .container{
-          max-width: 600px;        
+          max-width: 625px;        
       }
   }
   
