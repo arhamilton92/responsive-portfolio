@@ -1,0 +1,42 @@
+body {
+    background-image: url("https://files.slack.com/files-pri/T013NAE6PDY-F01451KKCNB/gtpfbg.png");
+    background-repeat: repeat;
+    
+  }
+  
+  h1 {
+    color: darkcyan;
+    font-family: serif;
+    font-weight: 800
+  }
+  
+  h3 {
+  color: white;
+    font-family: serif;
+    font-weight: 800;
+    background-color: darkcyan;
+  }
+  
+  .container {
+    background-color: white ;
+    position: relative;
+    margin-top: 25%;
+  }
+
+
+  .nav-item {
+    color: darkcyan;
+  }
+  
+  @media (min-width: 200px) {
+      .container{
+          max-width: 400px;
+      }
+  }
+  
+  @media (min-width: 550px) {
+      .container{
+          max-width: 600px;        
+      }
+  }
+  
