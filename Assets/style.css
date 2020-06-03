@@ -1,11 +1,9 @@
-html {
-  overflow: scroll;
-}
-
+/*background*/
 body {
     background-image: url("https://files.slack.com/files-pri/T013NAE6PDY-F01451KKCNB/gtpfbg.png");
     background-repeat: repeat;    
   }
+/**/
 
 /*titles*/
 h1 {
@@ -20,15 +18,13 @@ h3 {
     font-weight: 800;
     background-color: darkcyan;
   }
+/**/
 
-.text-center {
-  color: darkcyan;
-  background-color:  rgb(248, 245, 245);
-}
-
+/*navbar*/
 .nav-item {
     color: darkcyan;
   }
+/**/
 
 /*main*/
 .container {
@@ -36,35 +32,46 @@ h3 {
     position: relative;
     margin-top: 25%;
   }
+/**/
 
+/*footer*/
 footer {
 background-color: rgb(248, 245, 245);
 }
- 
- .flex-fill {
-    flex:1 1 auto;
- }
 
-/*media-queries*/
-@media (min-width: 200px) {
-.containermain{ max-width: 400px; }
-.containerportfolio { max-width: 400px;}
-  }
-
-@media screen and (max-width: 600px) {
-img.responsive { width: 200px;}
-img.responsive { height: auto;}
+.footertext {
+  color: darkcyan;
+  background-color:  rgb(248, 245, 245);
 }
 
-@media screen and (min-width: 950px) {
-img.responsive { width: 350px;}
-img.responsive { height: auto;}
+.footerlink {
+  color: lightslategray;
+}
+/**/
+
+/*media-queries*/
+@media (max-width: 550px) {
+.containermain { max-width: 400px;}
+.containerportfolio { max-width: 400px;}
 }
 
 @media (min-width: 550px) {
-.containermain { max-width: 625px;}
+.containermain { max-width: 500px}
+.containerportfolio { max-width: 600px;}
 }
 
 @media (min-width: 950px) {
+.containermain { max-width: 600px}
 .containerportfolio { max-width: 500px;}
 }
+    /*portfolio image size*/
+    @media screen and (max-width: 950px) {
+    img.responsive { width: 200px;}
+    img.responsive { height: auto;}
+    }
+
+    @media screen and (min-width: 950px) {
+    img.responsive { width: 350px;}
+    img.responsive { height: auto;}
+    }
+/**/
