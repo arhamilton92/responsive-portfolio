@@ -20,6 +20,15 @@ h3 {
   }
 /**/
 
+/*alignment*/
+.alignleft {
+  float: left;
+  margin: 10px;
+}
+
+.textaligncenter {
+  text-align: center;
+}
 /*navbar*/
 .nav-item {
     color: darkcyan;
