@@ -20,6 +20,7 @@ Scroll through the various pages and test how they react to different window siz
 
 ## Screenshots
 
+![image](https://user-images.githubusercontent.com/64741393/84551987-514d6d00-acdd-11ea-884a-081c4de8435e.png)
 ![image](https://user-images.githubusercontent.com/64741393/83700109-e9f43680-a5d3-11ea-8547-f2679453f50f.png)
 ![image](https://user-images.githubusercontent.com/64741393/83700129-fc6e7000-a5d3-11ea-87f5-2cc58e5deda3.png)
 ![image](https://user-images.githubusercontent.com/64741393/83700065-c7fab400-a5d3-11ea-92b9-b09fab591d83.png)
