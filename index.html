@@ -3,62 +3,53 @@
 <head>
   <meta charset="utf-8">
   <meta name="description" content="Contact Me">
-  <link
-    rel="stylesheet"
-    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-    crossorigin="anonymous"
-  />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"/>
   <link rel="stylesheet" href="./assets/style.css">
-  <script
-    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-    crossorigin="anonymous"
-  ></script>
-  <link rel="stylesheet" href="./Assets/style.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   <title>About Me</title>
 </head>
 
 <body>
-<!--nav bar-->
+<!--navbar-->
 <header class="pos-f-t">
-  <nav class="collapse bg-white pt-3 pb-3" id="navbarToggleExternalContent">
-    <!--page buttons-->
-    <div class="d-flex justify-content-center">
-      <a class="nav-item nav-link" href="index.html"><h5>About Me</h5></a>
-      <a class="nav-item nav-link" href="portfolio.html"><h5>Portfolio</h5></a>
-      <a class="nav-item nav-link" href="contact.html"><h5>Contact</h5></a>
-    </div>
+  <!--navbar-->
+  <nav class="navbar navbar-dark">
+  </nav>
+  <nav class="collapse navbar-dark pt-3 pb-3" id="navbarToggleExternalContent">
+      <!--page buttons-->
+      <div class="d-flex justify-content-center">
+          <a class="nav-item nav-link" href="index.html"><h5>About Me</h5></a>
+          <a class="nav-item nav-link" href="portfolio.html"><h5>Portfolio</h5></a>
+          <a class="nav-item nav-link" href="contact.html"><h5>Contact</h5></a>
+      </div>
   </nav>
   <!--nav bar display-->
-  <nav class="navbar navbar-light bg-light">
-    <a class="navbar-brand ml-5" href="#"><h3>Andrea Hamilton</h3></a>
-    <div class="navbar-nav float-right text-right pr-3 ">
+  <nav class="navbar navbar-light">
+      <a class="navbar-brand ml-5 mt-2" href="#"><h3>Andrea Hamilton</h3></a>
+      <div class="navbar-nav float-right text-right pr-3 ">
       <!--hamburger-->
       <button class="navbar-toggler mr-5" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-        <!-- hamburger icon-->
-        <span class="navbar-toggler-icon"></span>
+          <!-- hamburger icon-->
+          <span class="navbar-toggler-icon"></span>
       </button>
-    </div>
+      </div>
   </nav>
+  <div class="navbar navbar-dark"></div>
 </header>
 
+
+
+<br>
+<br>
+
 <!--main about me content-->
-<main class="container containermain my-3 border mt-5">
+<main class="container containermain my-3 border mt-5 pb-5">
   <div class="row">
-    <div class="col-m px-4 pt-4 mb-3" style="text-align:center;">
+    <div class="col-m px-4 pt-4 mb-3">
       <section class="w-100">
-        <h1 style="text-align:left;">About Me</h1>
+        <h1 class="about">About Me</h1>
         <hr>
         <figure>
           <!--W3C validation returned an error on using align="left" for the image here, but I could get absolutely nothing else to work.-->
@@ -66,17 +57,11 @@
           <img class ="mr-2 mb-1 alignleft" src="./Assets/images/mycuteface.jpg" alt="Picture of Me" >
         </figure>
         <div class="text-center" >
-          <p>Hi! Welcome to my future professional portfolio! I'm Andrea, a freelance artist and aspiring web designer. 
-          When I'm not working, you can catch me gaming, reading or drawing dorky cartoons. 
-          I used a picture of my dog, Breakfast, for my portfolio images. You're welcome!
+          <p>Hi! Welcome to my portfolio! I'm Andrea, a freelance artist and aspiring web designer. 
+          When I'm not working, you can catch me gaming, reading or drawing dorky cartoons. Currently, I'm attending the GA Tech
+          full stack Bootcamp!
           <br><br>
-          Hope you like my site!
-          This space requires a heck of a lot of text to look like the model, sooo 
-          <br><br>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          Repudiandae cumque voluptatem quo nemo repellat voluptas recusandae, incidunt quae tenetur harum earum nam dolorum quos 
-          ipsam, nostrum reiciendis corrupti rerum ab!</p>
-        </div>
+          <a href="https://www.linkedin.com/in/andrea-hamilton-190b641a8/">LinkedIn</a>
       </section>
     </div>
   </div>
@@ -84,11 +69,11 @@
 
 <!-- Footer -->
 <footer class="footer footer-light fixed-bottom p-3">
+  
   <div class="container-fluid text-center text-md-left">
       <div class="row">
           <section class="col align-self-center">
-              <h3 class="text-center footertext">STICKY FOOTER</h3>
-              <a class="footerlink" href="https://github.com/arhamilton92/responsive-portfolio"><p class="textaligncenter">Github Repo</p></a>
+              <a class="text-center" href="https://github.com/arhamilton92/responsive-portfolio"><h3>GITHUB</h3></a>
           </section>
       </div>
   </div>
