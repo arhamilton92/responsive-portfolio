@@ -1,0 +1,86 @@
+body {
+    background-color: rgb(240, 234, 245);
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+h1 {
+    color: rgb(105, 92, 116);
+    font-family: serif;
+    font-weight: 800;
+}
+
+h3 {
+    color: rgb(105, 92, 116);
+    font-family: serif;
+    font-weight: 800;
+    font-size: 35px;
+}
+
+.navbar-dark {
+    background-color: rgb(105, 92, 116);
+}
+
+.navbar-light {
+    background-color: rgb(208, 200, 221);
+}
+
+.nav-item {
+    color: rgb(190, 180, 206);
+}
+
+.footer-light {
+    background-color: rgb(208, 200, 221);
+}
+
+.fixed-bottom {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.container {
+    background-color: white;
+    text-align: center;
+}
+
+.about {
+    text-align: center;
+    color: rgb(105, 92, 116);
+}
+
+.portfolio-pic {
+    width: 700px;
+}
+
+.mypicture {
+    max-width: 200px;
+    float: left;
+    margin: 10px;
+}
+
+@media (min-width: 950px) {
+    .containerportfolio {max-width: 800px};
+}
+@media (min-width: 950px) {
+    .containermain {max-width: 600px};
+}
+
+
+
+    .float-right {
+        float: right;
+    }
+
+    .pr-3, .px-3 {
+        padding-right: 1;
+    }
+    .text-right {
+        text-align: right;
+    }
